@@ -14,12 +14,14 @@ class TableViewController: UITableViewController {
         SectionData(
             open: true,
             data: [
-                CellData(title: "Twitter", featureImage: UIImage(named: "1")!)
+                CellData(title: "Twitter", featureImage: UIImage(named: "1")!),
+                CellData(title: "Facebook", featureImage: UIImage(named: "2")!)
             ]),
         SectionData(
             open: true,
             data: [
-                CellData(title: "Twitter", featureImage: UIImage(named: "2")!)
+                CellData(title: "Twitter", featureImage: UIImage(named: "2")!),
+                CellData(title: "Instagram", featureImage: UIImage(named: "0")!)
             ]),
         SectionData(
             open: true,

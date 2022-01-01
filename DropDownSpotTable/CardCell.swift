@@ -41,7 +41,7 @@ class CardCell: UITableViewCell {
         infoText.textColor = .black
         infoText.isEditable = false
         infoText.translatesAutoresizingMaskIntoConstraints = false
-        infoText.text = "My mind is gonna blow up and I don't know where the fuck I am"
+        infoText.text = "My mind is gonna blow up and I don't know where the hell I am"
         infoText.backgroundColor = .clear
         return infoText
     }()
